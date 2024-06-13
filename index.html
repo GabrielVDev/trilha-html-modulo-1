@@ -1,62 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página - Módulo I - Primeiros Passos com HTML</title>
+    <title>Desenvolvendo HTML</title>
 </head>
+
 <body>
-    <h1>Módulo 1 - Primeiros Passos com HTML</h1>
+    <h1>Desenvolvendo HTML</h1>
     <hr />
-
-    <h2>Índice</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste índice você deve colocar os tópicos que mais entendeu. Estes apenas são sugestões.</p>
+    <h2>Trabalhando com Tags</h2>
     <ul>
-        <li><a href="#">História dos computadores</a></li>
-        <li><a href="#">O que são <i>Clients</i>?</a></li>
-        <li><a href="#">O que são <i>Servers</i>?</a></li>
-        <li><a href="#">Como é uma estrutura básica de um HTML?</a></li>
-        <li><a href="#">Entendendo a diferença entre listas ordenadas e não ordenadas</a></li>
-        <li><a href="#">Links de referências</a></li>
+        <li><a href="#principais">Tags Principais</a></li>
+        <li><a href="#complementares">Tags Complementares</a></li>
+        <li><a href="#aprendizado">Fonte de aprendizado</a></li>
     </ul>
-
-    <h2>História dos computadores</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
-
-    <h2>O que são <i>Clients</i>?</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
-
-    <h2>O que são <i>Servers</i>?</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
-
-    <h2>Como é uma estrutura básica de um HTML?</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
-
-    <h2>Entendendo a diferença entre listas ordenadas e não ordenadas</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
-
-    <h2>Links de referências</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Coloque links para outras páginas que falam sobre estes assuntos. Não esquece de que precisa abrir em outra aba/janela do navegador.</p>
+    <h2 id="principais">Tags Principais</h2>
+    <h3>Títulos e Parágrafos </h3>
+    <p>Tag h1 a h6 = Essas tags são usadas para definir cabeçalhos, onde h1 é o maior e mais importante, e h6 é o menor
+        e menos importante.</p>
+    <p>Tag P = Define um parágrafo de texto.</p>
+    <h3>Formatação de Texto</h3>
+    <p>Tag <mark>mark</mark> = Destaca o texto, geralmente com um fundo amarelo.</p>
+    <p>Tag samll = <small>Define texto pequeno.</small></p>
+    <p>Tag i = <i>Define texto em itálico.</i></p>
+    <p>Tag u = <u></u>Define texto sublinhado.</p>
+    <p>Tag strong = <strong>Define texto em negrito e com importância.</strong></p>
+    <h3>Listas</h3>
+    <p>Tag ol = Define uma lista ordenada</p>
+    <ol>
+        <li>Primeiro item</li>
+        <li>Segundo item</li>
+        <li>Terceiro item</li>
+    </ol>
+    <p>Tag ul = Define uma lista não ordenada (com marcadores).</p>
     <ul>
-        <li><a href="#">http://dio.me</a></li>
-        <li><a href="#">http://w3c.org</a></li>
+        <li>Primeiro item</li>
+        <li>Segundo item</li>
+        <li>Terceiro item</li>
     </ul>
+    <p>Tag li = Define um item de lista.</p>
+    <h3>Links e Linhas Horizontais</h3>
+    <p>Tag a = Define um link. <a href="www.google.com">Visite o google</a></p>
+    <p>Tag hr = Insere uma linha horizontal.</p>
+    <h3>Subscrito e Sobrescrito</h3>
+    <p>Tag sub = <sub>Define texto subscrito (abaixo da linha base).</sub></p>
+    <p>Tag sup = <sup>Define texto sobrescrito (acima da linha base).</sup></p>
+    <h3>Citações</h3>
+    <p>Tag blockquote = <blockquote>Define uma seção de citação em bloco.</blockquote> </p>
+
+    <h2 id="complementares">Tags Complementares</h2>
+    <p>Tag font = <font color="blue" size="3.5" face="Arial">Esta tag era usada para definir a cor, fonte e tamanho do texto. No entanto, ela está obsoleta no HTML5. Em vez disso, recomenda-se usar CSS para estilizar o texto.</font></p>
+    <p>Tag del = Define texto que foi removido ou deletado de um documento.<del>O texto aparece riscado.</del></p>
+    <p>Tag abbr = <abbr title="Quando você passa o mouse sobre a abreviação, o navegador pode exibir o significado completo.">Define uma abreviação ou acrônimo.</abbr></p>
+    <h2 id="aprendizado">Fonte de aprendizado</h2>
+    <p>Todo o conhecimento foi adquirido atraves da <a href="www.dio.me">DIO</a></p>
+
 
 </body>
+
 </html>
